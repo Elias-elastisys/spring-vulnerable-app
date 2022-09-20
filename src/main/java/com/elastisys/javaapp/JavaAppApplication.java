@@ -62,7 +62,7 @@ public class JavaAppApplication {
 
     @GetMapping("/hello")
         public String hello() {
-            String msg = "Hello World";
+            String msg = "Hello World!!!";
             return msg;
         }
 
